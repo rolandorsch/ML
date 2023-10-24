@@ -1,15 +1,15 @@
 import sys
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+# from tensorflow.keras.preprocessing.text import Tokenizer
+# from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pickle
 import numpy as np
 
-MAX_LENGTH = 100
-PADDING_TYPE = 'post'
-TRUNC_TYPE = 'post'
-TOKENIZER_PATH = 'tokenizer.pkl'
+# MAX_LENGTH = 100
+# PADDING_TYPE = 'post'
+# TRUNC_TYPE = 'post'
+# TOKENIZER_PATH = 'tokenizer.pkl'
 MODEL_PATH = 'model.h5'
 
 # Load the tokenizer from the file
@@ -25,7 +25,7 @@ print(model.summary())
 
 if len(sys.argv) > 0:
     arguments = sys.argv[1:]
-    print("argyumentos", arguments)
+    # print("argyumentos", arguments)
     # Process the arguments
     for arg in arguments:
         print("argumneto_", arg)
