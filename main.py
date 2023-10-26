@@ -12,6 +12,7 @@ import numpy as np
 # TOKENIZER_PATH = 'tokenizer.pkl'
 MODEL_PATH = 'model.h5'
 
+
 # Load the tokenizer from the file
 
 # tokenizer_filename = TOKENIZER_PATH
